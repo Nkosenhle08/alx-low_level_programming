@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _stremp - compares two strings
+ * _strcmp - a function that compares two strings
  * @s1: first string
  * @s2: second string
- * Return: 0 if s1 is equals to s2,another numberif not
+ * Return: 0 if s1 and s2 are equal, another if not
  */
 
-int _stremp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i = 0, op = 0;
 
